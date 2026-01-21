@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhishek Patil | Full Stack Developer Portfolio</title>
+   <link rel="icon" type="image/png" href="C:\Users\ASUS\Desktop\JAVA CODES\.vscode\image\favicon.png">
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- EmailJS SDK -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+</head>
+<body>
+    <!-- Background Canvas -->
+<canvas id="bg-canvas"></canvas>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <!-- LEFT : Social Icons -->
+    <div class="nav-social-icons">
+        <a href="https://www.linkedin.com/in/abhishek-patil-a66789208/" target="_b" title="LinkedIn">
+            <i class="fab fa-linkedin-in"></i>
+        </a>
+
+        <a href="https://github.com/abhipatil8551" target="_blank" title="GitHub">
+            <i class="fab fa-github"></i>
+        </a>
+
+        <a href="mailto:abhipatil8551@gmail.com" title="Email">
+            <i class="fas fa-envelope"></i>
+        </a>
+
+        <a href="tel:+918551810821" title="Call">
+            <i class="fas fa-phone"></i>
+        </a>
+    </div>
+        <ul class="nav-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="menu-btn"><i class="fas fa-bars"></i></div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="hero-content">
+            
+            <div class="profile-img-container">
+                
+                
+                <img src=".vscode\image\Gemini_Generated_Image_5l7u495l7u495l7u.png" alt="Abhishek Patil" class="profile-img">
+            </div>
+              <div class="hero-content">
+
+        
+            <h1>Hi, I'm <span class="highlight">Abhishek Patil</span></h1>
+            <h2 id="typing-text"></h2>
+            <p>
+            Computer Engineer with hands-on experience in
+            Java, Full Stack Development, and AI/ML.
+            Passionate about building scalable and intelligent applications.
+        </p>
+         
+    </div>
+
+</section>
+            <div class="hero-btns">
+                <a href="#resume" class="btn primary">View Resume</a>
+                <a href=".vscode\image\java_full_stack_resume.pdf" download class="btn secondary">Download CV</a>
+                <a href="#contact" class="btn gold">Contact Me</a>
+            </div>
+        </div>
+        <div class="scroll-indicator"></div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="about-section scroll-reveal">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-container">
+            <p class="intro-text">
+                Computer Science Engineer skilled in Java, Full Stack Development, and AI/ML. 
+                Passionate about building scalable applications and solving complex problems through code.
+            </p>
+            <div class="counters">
+                <div class="counter-box">
+                    <span class="number" data-target="1">0</span>
+                    <p>Internship</p>
+                </div>
+                <div class="counter-box">
+                    <span class="number" data-target="8">0</span>
+                    <p>Certifications</p>
+                </div>
+                <div class="counter-box">
+                    <span class="number" data-target="5">0</span>
+                    <p>Major Projects</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section scroll-reveal">
+        <h2 class="section-title">Technical Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <i class="fab fa-java"></i>
+                <h3>Java</h3>
+                <div class="progress-bar"><div class="progress" style="width: 90%;"></div></div>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-python"></i>
+                <h3>Python / AI-ML</h3>
+                <div class="progress-bar"><div class="progress" style="width: 80%;"></div></div>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-code"></i>
+                <h3>C / C++</h3>
+                <div class="progress-bar"><div class="progress" style="width: 75%;"></div></div>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-database"></i>
+                <h3>SQL & PostgreSQL</h3>
+                <div class="progress-bar"><div class="progress" style="width: 80%;"></div></div>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-leaf"></i>
+                <h3>Spring Boot</h3>
+                <div class="progress-bar"><div class="progress" style="width: 70%;"></div></div>
+            </div>
+        
+            <div class="skill-card">
+                <i class="fab fa-react"></i>
+                <h3>Web Dev (React/JS)</h3>
+                <div class="progress-bar"><div class="progress" style="width: 85%;"></div></div>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-code"></i>
+                <h3>HTML / CSS</h3>
+                <div class="progress-bar"><div class="progress" style="width: 75%;"></div></div>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-github"></i>
+                <h3>GIT / GITHUB</h3>
+                <div class="progress-bar"><div class="progress" style="width: 75%;"></div></div>
+            </div>
+            </div>
+            
+            
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience-section scroll-reveal">
+        <h2 class="section-title">Experience</h2>
+        <div class="timeline">
+            <div class="timeline-item left">
+                <div class="timeline-content">
+                    <span class="date">Mar 2024 – Nov 2024</span>
+                    <h3>Full Stack Developer Intern</h3>
+                    <h4>Hummingbyte Technology Pvt Ltd</h4>
+                    <p>Designed REST APIs with Spring Boot, implemented data persistence using JPA/PostgreSQL, and integrated frontend modules.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section scroll-reveal">
+        <h2 class="section-title">Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <h3>Abusive Chat Detection</h3>
+                <p>Bi-LSTM deep learning model for text classification with 85% accuracy. Built with Python & Flask.</p>
+                <div class="tags"><span>Python</span> <span>NLP</span> <span>Bi-LSTM</span></div>
+            </div>
+            <div class="project-card">
+                <h3>Hospital Management</h3>
+                <p>Full-stack web application for patient records, billing, and appointments using Java/Spring.</p>
+                <div class="tags"><span>Java</span> <span>Spring Boot</span> <span>PostgreSQL</span></div>
+            </div>
+            <div class="project-card">
+                <h3>Backend REST APIs</h3>
+                <p>Created robust CRUD operations with exception handling and validation mechanisms.</p>
+                <div class="tags"><span>REST</span> <span>Postman</span> <span>Hibernate</span></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="cert-section scroll-reveal">
+        <h2 class="section-title">Certifications</h2>
+        <div class="slider-container">
+            <button class="slider-btn prev"><i class="fas fa-chevron-left"></i></button>
+            <div class="slider" id="cert-slider">
+                <!-- Images will be injected by JS or hardcoded here -->
+                <div class="cert-item"><img src=".vscode\image\coding seekho certificate _20250130_113848_0000_page-0005 - Copy.jpg" alt="Java Cert"></div>
+                <div class="cert-item"><img src=".vscode\image\coding seekho certificate _20250130_113848_0000_page-0006.jpg" alt="Python Cert"></div>
+                <div class="cert-item"><img src=".vscode\image\coding seekho certificate _20250130_113848_0000_page-0001.jpg" alt="C Cert"></div>
+                <div class="cert-item"><img src=".vscode\image\coding seekho certificate _20250130_113848_0000_page-0002.jpg" alt="Full Stack"></div>
+                <div class="cert-item"><img src=".vscode\image\coding seekho certificate _20250130_113848_0000_page-0003.jpg" alt="Full Stack"></div>
+                <div class="cert-item"><img src=":.vscode\image\coding seekho certificate _20250130_113848_0000_page-0004.jpg" alt="Full Stack"></div>
+                <div class="cert-item"><img src=".vscode\image\coding seekho certificate _20250130_113848_0000_page-0007.jpg" alt="Full Stack"></div>
+                <div class="cert-item"><img src=".vscode\image\coding seekho certificate _20250130_113848_0000_page-0008.jpg" alt="Full Stack"></div>
+
+            </div>
+            <button class="slider-btn next"><i class="fas fa-chevron-right"></i></button>
+        </div>
+    </section>
+
+    <!-- Modal for Zooming Certificates -->
+    <div id="cert-modal" class="modal">
+        <span class="close-modal">&times;</span>
+        <img class="modal-content" id="modal-img">
+    </div>
+
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section scroll-reveal">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-container">
+            <form id="contact-form">
+                <div class="input-group">
+                    <input type="text" id="from_name" name="from_name" placeholder="Your Name" required>
+                </div>
+                <div class="input-group">
+                    <input type="email" id="reply_to" name="reply_to" placeholder="Your Email" required>
+                </div>
+                <div class="input-group">
+                    <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="btn gold" id="submit-btn">
+                    <span id="btn-text">Send Message</span>
+                    <div id="loader" class="loader hidden"></div>
+                </button>
+            </form>
+            <div id="form-response" class="hidden"></div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-wave"></div>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/abhishek-patil-a66789208/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/abhipatil8551"><i class="fab fa-github"></i></a>
+            <a href="mailto:abhipatil8551@gmail.com"><i class="fas fa-envelope"></i></a>
+        </div>
+        <p>© 2025 Abhishek Patil | Portfolio</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
